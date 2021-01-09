@@ -180,7 +180,7 @@ ul li{
 	"about-me-one about-me-two about-me-two"
 }
 
-.div-about-me img{
+.display-picture{
 	width: 100%;
 	background-color: rgba(255,255,255,1);
 	border-radius: 0.5rem;
@@ -195,11 +195,19 @@ ul li{
 	text-align: left;
 }
 
-.about-me img{
+.display-picture{
 	width: 100%;
 	height: auto;
 	background-color: rgba(255,255,255,1);
 	border-radius: 0.5rem;
+}
+
+.contact-logo{
+	width: auto;
+	height: auto;
+	background-color: rgba(255,255,255,1);
+	border-radius: 0.5rem;
+	padding: 1rem 1rem 0 0;
 }
 
 .div-footer {
