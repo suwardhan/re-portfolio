@@ -34,21 +34,25 @@ h1 {
 }
 
 h2 {
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 2rem;
+	line-height: 2.5rem;
+	margin-bottom: -1rem;
+	margin-top: 2rem;
 	font-family: 'Public Sans', sans-serif;
-	font-weight: 400;
-	color: #1a1a1a;
-	text-align: left;
-	margin-bottom: 0.25rem;
+	font-weight: 600;
+	color: #333333;
 }
 
+
+
 h3 {
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 1.5rem;
+	line-height: 2rem;
+	margin-bottom: 1.25rem;
+	margin-top: 0rem;
 	font-family: 'Public Sans', sans-serif;
-	font-weight: 400;
-	color: #6D5F5F;
+	font-weight: 600;
+	color: #333333;
 }
 
 h4 {
@@ -95,48 +99,13 @@ hr{
 	text-align: left;
 }
 
-.tagline{
-	font-size: 1.25rem;
-	line-height: 2.5rem;
-	font-family: 'Public Sans', sans-serif;
-	font-weight: 300;
-	color: #4f4f4f;
-	padding: 0 44% 0 0;
-}
-
-.publication-heading{
+.about-me-desc{
 	font-size: 1.125rem;
 	line-height: 2rem;
 	font-family: 'Public Sans', sans-serif;
-	font-weight: 400;
-	color: #1a1a1a;
-	padding: 0;
-	margin-bottom: 0;
-}
-
-.publication-name{
-	font-size: 1rem;
-	line-height: 1.5rem;
-	font-family: 'Public Sans', sans-serif;
 	font-weight: 300;
-	color: #6D5F5F;
+	color: #4f4f4f;
 	padding: 0;
-	margin: 0.5rem 0;
-	font-style: italic;
-}
-
-.publication-heading a:hover{
-	color: #CF3C3C;
-}
-
-.publication-desc{
-	font-size: 1rem;
-	line-height: 1.5rem;
-	font-family: 'Public Sans', sans-serif;
-	font-weight: 300;
-	color: #6D5F5F;
-	padding: 0;
-	margin: 0.5rem 0;
 }
 
 .div-nav-mobile{
@@ -159,9 +128,9 @@ hr{
 	display: grid;
 	grid-gap: 3rem;
 	grid-template-rows: repeat(1, 1fr);
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(2, 1fr);
 	grid-template-areas: 
-	"header-one header-two header-two" 
+	"header-one header-two"
 }
 
 .header-one {
@@ -200,45 +169,33 @@ ul li{
 }
 
 
-.project-gallery {
+.div-about-me {
 	width: 80%;
-	margin: 0 auto;
+	margin: 6rem auto;
 	display: grid;
 	grid-gap: 3rem;
 	grid-template-rows: repeat(1, 1fr);
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-areas: 
-	"pr-one pr-two pr-three"
-	"pr-four pr-five pr-six"
+	"about-me-one about-me-two about-me-two"
 }
 
-.project-gallery img{
+.div-about-me img{
 	width: 100%;
 	background-color: rgba(255,255,255,1);
 	border-radius: 0.5rem;
 }
 
 
-.pr-one {
-	grid-area: pr-one;
+.about-me-one {
+	grid-area: about-me-one;
 }
-.pr-two { 
-	grid-area: pr-two;
-}
-.pr-three {
-	grid-area: pr-three;
-}
-.pr-four {
-	grid-area: pr-four;
-}
-.pr-five {
-	grid-area: pr-five;
-}
-.pr-six {
-	grid-area: pr-six;
+.about-me-two { 
+	grid-area: about-me-two;
+	text-align: left;
 }
 
-.project-gallery img{
+.about-me img{
 	width: 100%;
 	height: auto;
 	background-color: rgba(255,255,255,1);
@@ -307,9 +264,9 @@ ul li{
 	}
 	
 
-	.tagline{
-		font-size: 1.25rem;
-		line-height: 2.5rem;
+	.about-me-desc{
+		font-size: 1rem;
+		line-height: 1.5rem;
 		font-family: 'Inter', sans-serif;
 		font-weight: 400;
 		color: #1a1a1a;
@@ -336,21 +293,26 @@ ul li{
 		display: none;
 	}
 
-	.project-gallery {
+	.div-about-me {
 		width: 90%;
-		margin: 0 auto;
+		margin: 2rem auto;
 		display: grid;
-		grid-gap: 3rem;
-		grid-template-rows: repeat(3, 1fr);
+		grid-gap: 1rem;
+		grid-template-rows: repeat(2, 1fr);
 		grid-template-columns: repeat(1, 1fr);
 		grid-template-areas: 
-		"pr-one"
-		"pr-two"
-		"pr-three"
-		"pr-four"
-		"pr-five"
+		"about-me-one"
+		"about-me-two"
 	}
 
+	.about-me-one {
+		height: auto;
+	}
+	.about-me-two { 
+		grid-area: about-me-two;
+		text-align: left;
+	}
+	
 	.div-footer {
 		width: 90%;
 		height: auto;
