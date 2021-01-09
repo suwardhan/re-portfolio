@@ -125,6 +125,10 @@ hr{
 	font-style: italic;
 }
 
+.publication-name a:hover{
+	color: #CF3C3C;
+}
+
 .publication-desc{
 	font-size: 1rem;
 	line-height: 1.5rem;
@@ -186,7 +190,7 @@ ul li{
 }
 
 .header-link a:hover{
-	color: #1a1a1a;
+	color: #CF3C3C;
 }
 
 .div-project-heading{
