@@ -212,12 +212,6 @@ ul li{
 	"pr-four pr-five pr-six"
 }
 
-.project-gallery img{
-	width: 100%;
-	background-color: rgba(255,255,255,1);
-	border-radius: 0.5rem;
-}
-
 
 .pr-one {
 	grid-area: pr-one;
@@ -238,11 +232,35 @@ ul li{
 	grid-area: pr-six;
 }
 
+
+/* .project-gallery h2:hover{
+	color:#CF3C3C
+} */
+
 .project-gallery img{
 	width: 100%;
 	height: auto;
+	object-fit: cover;
 	background-color: rgba(255,255,255,1);
 	border-radius: 0.5rem;
+}
+
+.div-thumbnail{
+	overflow: hidden;
+	border-radius: 0.5rem;
+	transition: transform .2s;
+	height: auto;
+	border: 1px solid #f7f7f8;
+}
+
+.thumbnail{
+	align-content: space-around;
+	transform: scale(1.05);
+	transition: transform .3s;
+}
+
+.thumbnail:hover{
+	transform: scale(1.15); 
 }
 
 .div-footer {
