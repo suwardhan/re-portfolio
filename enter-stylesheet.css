@@ -1,0 +1,101 @@
+html{
+	font-size: 16px;
+}
+
+body {
+	font-family: 'Public Sans', sans-serif;
+	text-align: center;
+	margin: 0;
+}
+
+
+h1 {
+	font-size: 2.5rem;
+	line-height: 3.5rem;
+	font-family: 'Public Sans', sans-serif;
+	color: #444444;
+	font-weight: 600;
+	
+}
+
+h2 {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-family: 'Public Sans', sans-serif;
+	font-weight: 400;
+	color: #1a1a1a;
+	text-align: left;
+	margin-bottom: 0.25rem;
+}
+
+h3 {
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-family: 'Public Sans', sans-serif;
+	font-weight: 400;
+	color: #6D5F5F;
+}
+
+h4 {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
+	margin: 2rem 0;
+	font-family: 'Public Sans', sans-serif;
+	font-weight: 700;
+	color: #1a1a1a;
+	text-align: left;
+}
+
+
+a{
+	color: #1a1a1a;
+	text-decoration: none;
+}
+
+
+hr{
+	border: 1px solid #e7e7e7;
+}
+
+.div-enter{
+	text-align: center;
+	width: 360px;
+	margin: 120px auto;
+}
+
+.enter-title{
+	font-size: 28px;
+	margin-bottom: 0px;
+	font-weight: 600;
+}
+
+.enter-description{
+	font-size: 14px;
+	color: #666666;
+	margin-bottom: 32px;
+}
+
+#passwordBox{
+	padding: 8px 12px; 
+	font-size: 14px; 
+	width: 280px;
+	border: 1px solid #cccccc;
+	border-radius: 4px;
+	margin-bottom: 32px;
+	margin-top: 0px;
+}
+
+.enter-submit{
+	padding: 12px 48px;
+	width: 280px;
+	background-color: #000000;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600;
+	border-radius: 4px;
+}
+
+
+
+
+
